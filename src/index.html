@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cross The Road</title>
+  </head>
+
+  <body>
+    <div class="gameWrapper">
+      <canvas class="game" width="1000" height="1000">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/isomer/0.2.6/isomer.min.js"></script>
+    <script src="CrossTheRoad.js"></script>
+    <script>
+      new CrossTheRoad(document.querySelector('.game'))
+    </script>
+  </body>
+</html>

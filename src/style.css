@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.gameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.game {
+  width: 100vmin;
+  height: 100vmin;
+  margin: auto;
+}
